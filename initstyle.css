@@ -1,0 +1,19 @@
+body {
+  background-color: #217fae;
+}
+.container {
+  display: grid;
+  justify-items: center;
+  font-family: "roboto";
+  gap: 20px;
+}
+
+.content {
+  width: 60vw;
+  height: 60vh;
+  background-color: #fff;
+  border: 3px dashed gray;
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
