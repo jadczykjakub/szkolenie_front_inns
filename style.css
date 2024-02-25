@@ -1,0 +1,84 @@
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.box1 {
+  background-color: red;
+}
+
+.box2 {
+  background-color: pink;
+}
+
+.box3 {
+  background-color: orange;
+}
+
+/* <==================== position static =================> */
+
+/* .box {
+  position: static;
+} */
+
+/* <==================== position relative =================> */
+
+/* .box1 {
+  position: relative;
+  left: 45px;
+} */
+
+/* <==================== position absolute =================> */
+
+/* .box3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+} */
+
+/* .content {
+  position: relative;
+} */
+
+/* <==================== position fixed =================> */
+
+/* .content {
+  height: 200vh;
+}
+
+.box2 {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+} */
+
+/* <==================== position sticky =================> */
+/* .content {
+  height: 200vh;
+}
+
+.box3 {
+  position: sticky;
+  top: 20px;
+} */
+
+/* <==================== wrong z-index =================> */
+/* .box4Container {
+  position: relative;
+  z-index: 1;
+}
+
+.box4 {
+  background-color: hotpink;
+  position: absolute;
+  z-index: 444;
+  top: 20px;
+}
+
+.box5 {
+  background-color: olive;
+  position: absolute;
+  top: 35px;
+  left: 410px;
+  z-index: 44;
+} */
