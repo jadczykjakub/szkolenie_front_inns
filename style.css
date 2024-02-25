@@ -1,0 +1,107 @@
+/* <==================== Pseudoelements ======================> */
+/* .pseudoelements1 {
+}
+
+.pseudoelements1::before {
+  content: "before--";
+}
+
+.pseudoelements1::after {
+  content: "--after";
+}
+
+.pseudoelements2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background-color: pink;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: yellow;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+} */
+
+/* <==================== Triangle ======================> */
+/* .triangle { */
+/* width: 100px;
+  height: 100px; */
+/* border-left: 20px solid red;
+  border-right: 20px solid yellow;
+  border-top: 20px solid purple; */
+/* width: 0px;
+  height: 0px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid black; */
+/* } */
+
+/* .boxWithTriangle {
+  width: 100px;
+  height: 20px;
+  background-color: aqua;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid black;
+    border-bottom: 20px solid transparent;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+  }
+} */
+
+/* <==================== pointer events none ======================> */
+
+/* .pointer {
+  pointer-events: none;
+} */
+
+/* <==================== pointer events none ======================> */
+/* .calcBackground {
+  position: relative;
+  left: -20px;
+  height: 10px;
+  width: calc(100% + 2 * 20px);
+  background-color: red;
+} */
+
+button {
+  display: block;
+  margin: auto;
+  width: 10rem;
+  height: 2rem;
+}
+
+:modal {
+  background-color: beige;
+  border: 2px solid burlywood;
+  border-radius: 5px;
+}
