@@ -1,0 +1,27 @@
+/* <==================== align, size, line =================> */
+.title {
+  /* text-align: center; */
+  /* text-align: left; */
+  /* text-align: right; */
+  /* line-height: 2;  */
+}
+
+/* <==================== units =================> */
+.title {
+  /* border: 3px solid pink; */
+  /* padding: 10%; */
+  /* padding: 1em; */
+  /* padding: 1rem; */
+}
+
+html {
+  /* font-size: 22px; */
+}
+
+/* <==================== three dots =================> */
+.title {
+  /* text-overflow: ellipsis;
+  overflow: hidden;
+  width: 10ch;
+  white-space: nowrap; */
+}
