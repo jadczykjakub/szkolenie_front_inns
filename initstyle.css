@@ -13,7 +13,5 @@ body {
   height: 60vh;
   background-color: #fff;
   border: 3px dashed gray;
-  display: flex;
-  gap: 30px;
   padding: 20px;
 }
